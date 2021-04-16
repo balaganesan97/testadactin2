@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User enter valid username and password",
+        "description": "",
+        "id": "login-functionality-of-adactin-application;user-enter-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5302606500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch application",
+            "match": {
+              "location": "LoginStepDefinition.user_launch_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 918141900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"Balaganesan\" as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Balaganesan",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 370583800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"L4Y507\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "L4Y507",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinition.user_enter_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2506417100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Use verify valid username and password",
+            "match": {
+              "location": "LoginStepDefinition.use_verify_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@login1"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User enter hotel details",
+        "description": "",
+        "id": "login-functionality-of-adactin-application;user-enter-hotel-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 584440600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter location",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 492666800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter hotel",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413065600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter room_type",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350885100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter room_nos",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_room_nos()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371226000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter date_in",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_date_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304774200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter date_out",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_date_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343760800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter adult",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_adult()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276234800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter children",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_children()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2889550600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter submit",
+            "match": {
+              "location": "SearchStepDefinition.user_enter_submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "scenario description",
+        "description": "",
+        "id": "login-functionality-of-adactin-application;scenario-description",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 367554200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User select radio_button",
+            "match": {
+              "location": "BookingStepDefinition.user_select_radio_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2532580300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User select Continue_button",
+            "match": {
+              "location": "BookingStepDefinition.user_select_Continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "User confirms booking",
+        "description": "",
+        "id": "login-functionality-of-adactin-application;user-confirms-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 915424100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters firstname",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_firstname()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376316900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters lastname",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671350700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters billingaddress",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_billingaddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509727100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters ccnumber",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_ccnumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 604102500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters cc_type",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_cc_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 743591000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters cc_expirymonth",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_cc_expirymonth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548512300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User enters cc_expiryyear",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_cc_expiryyear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311573200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters ccv_no",
+            "match": {
+              "location": "ConfirmStepDefinition.user_enters_ccv_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274487100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User selects book_now",
+            "match": {
+              "location": "ConfirmStepDefinition.user_selects_book_now()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "User Logsout",
+        "description": "",
+        "id": "login-functionality-of-adactin-application;user-logsout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9302208100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User select logout",
+            "match": {
+              "location": "LogoutStepDefinition.user_select_logout()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality of Adactin application",
+    "description": "",
+    "id": "login-functionality-of-adactin-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/adactin/feature/adactin.feature"
+  }
+]
